@@ -14,6 +14,7 @@ class ClassRegister
       @items << item
       counter += 1
     end
+  else
     
   
   
