@@ -1,1 +1,2 @@
-class 
+class ClassRegister
+  attr_accessor :
