@@ -5,19 +5,20 @@ class CashRegister
     @discount = discount
     @items = []
   end
-  def add_item(item, price, count = 1)
-    @price = price
-    @total += price * count
-    if count > 1
-      counter = 0
-      while counter < count
-      @items << item
-      counter += 1
+  def add_item(title,price,quantity = 1)
+    if quantity>1
+      i=0
+      while i<quantity
+        @items << title
+        i+=1
+      end
+    else
+      @items << title
     end
-  else
-    @items << item
+    @total += price*quantity
+    @last_transaction_amount = @total
+    @total
   end
-end
 def apply_discount
   if @discount > 0
     @take_off = (price * discount)/100
