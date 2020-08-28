@@ -20,7 +20,8 @@ class ClassRegister
 end
 def apply_discount
   if @discount > 0
-    @take_off = (price * discount)
+    @take_off = (price * discount)/100
+    
   
   
 end
