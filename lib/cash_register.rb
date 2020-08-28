@@ -1,2 +1,2 @@
 class ClassRegister
-  attr_accessor :total, 
+  attr_accessor :total, :discount, :price, 
