@@ -10,6 +10,7 @@ class ClassRegister
     @total += price * count
     if count > 1
       counter = 0
+      while counter
   
   
 end
