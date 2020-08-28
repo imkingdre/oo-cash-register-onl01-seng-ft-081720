@@ -11,7 +11,7 @@ class ClassRegister
     if count > 1
       counter = 0
       while counter < count
-      
+      @items << item
   
   
 end
