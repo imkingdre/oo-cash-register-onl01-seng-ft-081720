@@ -5,7 +5,7 @@ class ClassRegister
     @discount = discount
     @items = []
   end
-  def add_item(item, price, )
+  def add_item(item, price, count = 1)
   
   
 end
