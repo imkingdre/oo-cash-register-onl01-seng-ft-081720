@@ -25,6 +25,9 @@ def apply_discount
     return "After the discount, your total comes to $#{total}."
   else
     return "There is no discount to apply."
+  end
+end
+
   
   
 end
