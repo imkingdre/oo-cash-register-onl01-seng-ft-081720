@@ -8,7 +8,8 @@ class ClassRegister
   def add_item(item, price, count = 1)
     @price = price
     @total += price * count
-    if count >
+    if count > 1
+      
   
   
 end
