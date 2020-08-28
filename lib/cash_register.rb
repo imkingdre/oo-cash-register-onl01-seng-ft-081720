@@ -15,7 +15,10 @@ class ClassRegister
       counter += 1
     end
   else
-    @items = items
+    @items = item
+  end
+end
+
   
   
 end
