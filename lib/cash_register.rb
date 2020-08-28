@@ -6,7 +6,7 @@ class ClassRegister
     @items = []
   end
   def add_item(item, price, count = 1)
-    
+    @price = price
   
   
 end
