@@ -12,6 +12,7 @@ class ClassRegister
       counter = 0
       while counter < count
       @items << item
+      counter += 1
       
   
   
