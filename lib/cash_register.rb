@@ -9,7 +9,7 @@ class ClassRegister
     @price = price
     @total += price * count
     if count > 1
-      
+      counter = 0
   
   
 end
